@@ -51,6 +51,29 @@ Stories/AChristmasCarol/
 
 Five self-contained staves give clean seams for practising branching, diffing, and merging — and the story's own past/present/future structure maps naturally onto "alternate timelines" as branches.
 
+## How to use this repo
+
+This is a learning sandbox, not a finished tool — the `worldrepo` app doesn't exist yet. But you can clone it and try the writer's-workflow idea on safe, public-domain material.
+
+**You'll need:** Git installed. That's it. If you use Emacs, [Magit](https://magit.vc) makes all of this friendlier — it's what I use — but any Git client, or the command line, works fine.
+
+**Get it:**
+```
+git clone https://github.com/Miragian-Studios/VCS4Writers-.git
+cd VCS4Writers-
+```
+
+**What's inside:** the five staves of *A Christmas Carol* under `Stories/AChristmasCarol/`, one file per stave — small, self-contained, and famous enough that every change you make is easy to read back.
+
+**Try it — an alternate timeline in five minutes:**
+1. Make a branch for an experiment: `git switch -c what-if-scrooge-refuses`
+2. Open the last stave and rewrite the ending however you like. Save.
+3. Commit it: stage the file, then commit with a note to your future self — *why* you took it there.
+4. Compare your version against canon: `git diff main` (or open the diff in Magit).
+5. Decide: fold it into canon by merging the branch into `main`, or throw the branch away — and canon is untouched, as if the experiment never happened.
+
+That loop — branch, experiment, diff, keep-or-discard — is the whole idea, scaled down. It's what a novel's alternate chapter or a writers'-room "what if" looks like when your drafts have a memory.
+
 ## Roadmap
 
 - [ ] **Stage 1 — Learn.** Work the core Pro Git slice (Ch. 1–3, then 10.1–10.3) against this repo, entirely in Magit.
