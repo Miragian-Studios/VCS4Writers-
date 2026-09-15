@@ -58,6 +58,16 @@ Five self-contained staves give clean seams for practising branching, diffing, a
 - [ ] **Stage 3 — Wrap.** Build thin Emacs/Magit commands expressing those operations in writers' terms.
 - [ ] **Stage 4 — Extract.** Lift the logic into a standalone `worldrepo` tool any front-end can call.
 
+
+### Further Reading
+
+Two arguments that shaped this project:
+
+- [Why I Switched to Plain Text and Git for My Writing](https://itsfoss.com/opinion/git-plain-text-writing/) — my own case for plain text and version control as a writer's infrastructure: memory, ownership, and the long afterlife of a text.
+- [The Plain Person's Guide to Plain Text Social Science](https://plain-text.co/) — Kieran Healy's pragmatic guide to a plain-text, version-controlled workflow. Written for social scientists, but its reasoning on version control, backups, and durable formats carries straight over to fiction.
+
+
+
 ## Licensing
 
 This repository mixes two kinds of work, licensed separately:
