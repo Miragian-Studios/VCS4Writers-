@@ -13,7 +13,7 @@ Used this way, version control stops being developer machinery and becomes somet
 
 When you choose to open it, you publish not just a finished text but its making — a thing that can be read, forked, and extended rather than only consumed. That is the wager here: give writers the power engineers have had for decades, without ever making them touch a terminal.
 
-I've expressed my thoughts on plain text, git and text editors, and why writers ought to embrace them in columns [here, ]([here](https://itsfoss.com/opinion/git-plain-text-writing/)), and [and here](https://itsfoss.com/opinion/emacs-the-ux-ideal-part-deux/) if you are interested.   
+I've expressed my thoughts on plain text, git and text editors, and why writers ought to embrace them in columns, ([here](https://itsfoss.com/opinion/git-plain-text-writing/), [here](https://itsfoss.com/news/version-control-writers/), and [and here](https://itsfoss.com/opinion/emacs-the-ux-ideal/) if you are interested. 
 
 ## Three ways writers already version their work
 
